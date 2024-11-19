@@ -1,2 +1,4 @@
-# azure-hands-on-experience
-Hands-on experience with Azure services
+## Contents
+
+1. [Virtual Machine Setup](VM-Setup/README.md)
+

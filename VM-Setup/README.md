@@ -1,32 +1,25 @@
-## Virtual Machine Setup
+# Virtual Machine Setup
 
-This guide explains how to create and configure a Virtual Machine (VM) in Azure.
+This repository contains my hands-on experience of creating and managing a Virtual Machine (VM) on Microsoft Azure. Below is a detailed step-by-step guide.
 
-## Steps
+## Step 1: Create a Virtual Machine
+First, I created a Virtual Machine using the Azure Portal.
 
-### 1. Login to Azure Portal
-- Go to [Azure Portal](https://portal.azure.com/) and log in.
+## Step 2: Configure VM Settings
+I configured the basic settings for the VM, including the region, size, and operating system.
 
-### 2. Create a Resource Group
-- Navigate to **Resource Groups** and click **+ Create**.
-- Name the resource group `MyAzureVM-RG`.
+## Step 3: Configure Disks and Network
+Next, I configured the **disks** and **network** for the VM to ensure proper connectivity.
 
-### 3. Create a Virtual Machine
-- Go to **Virtual Machines** and click **+ Add**.
-- Fill in the following:
-  - **VM Name:** `MyFirstVM`
-  - **Region:** East US
-  - **Image:** Ubuntu 20.04
-  - **Size:** B1s (basic tier)
-  - **Username:** `adminuser`
-  - **Authentication:** Password-based login
+## Step 4: Review and Create VM
+I reviewed the configuration and clicked **Create** to provision the VM.
 
-### 4. Configure Networking
-- Use default settings for the virtual network.
-- Ensure ports are open for RDP/SSH.
+## Step 5: Connect via SSH
+Once the VM was created, I connected to it via SSH to verify everything was set up properly.
 
-### 5. Connect to the VM
-- Use the public IP and credentials to connect via SSH or RDP.
+## Step 6: Check Cost and Billing
+Finally, I checked the **Cost Management** and **Billing** sections to make sure I wasn’t being charged unexpectedly.
 
-### 6. Stop or Delete the VM
-- Stop or delete the VM when no longer needed to avoid charges.
+
+## Conclusion
+By following these steps, I successfully created and managed a Virtual Machine in Azure. This process was a great hands-on learning experience.

@@ -13,7 +13,7 @@ First, I created a Resource Group using the Azure Portal.
 I configured the basic settings for the VM, including the region, size, and operating system.
 ![Basics1](Screenshots/Basic1.png)
 ![Basics2](Screenshots/Basic2.png)
-![Basics3](Screenshots/Basic3.png)
+![Basics3](Screenshots/Basics3.png)
 
 ## Step 3: Configure Disks and Network
 Next, I configured the **disks** and **network** for the VM to ensure proper connectivity.

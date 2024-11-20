@@ -2,8 +2,8 @@
 
 This repository contains my hands-on experience of creating and managing a Virtual Machine (VM) on Microsoft Azure. Below is a detailed step-by-step guide.
 
-## Step 1: Create a Virtual Machine
-First, I created a Virtual Machine using the Azure Portal.
+## Step 1: Create a Virtual Machine 
+First, I created a Virtual Machine using the Azure Portal. (screenshots/Basic1.png)
 
 ## Step 2: Configure VM Settings
 I configured the basic settings for the VM, including the region, size, and operating system.

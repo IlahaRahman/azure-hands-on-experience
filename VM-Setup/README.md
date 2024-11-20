@@ -3,7 +3,7 @@
 This repository contains my hands-on experience of creating and managing a Virtual Machine (VM) on Microsoft Azure. Below is a detailed step-by-step guide.
 
 ## Explore my Azure Dashboard:
-![Dashboard](Screenshots/AzureDashboard.png)
+![Dashboard](Screenshots/AzureDashbord.png)
 
 ## Step 1: Create a Resource Group
 First, I created a Resource Group using the Azure Portal. 

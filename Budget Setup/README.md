@@ -17,6 +17,8 @@ Although budgeting isn't strictly required for a **Free Azure Account**, I set i
    - Set the **budget name**, the **amount** (e.g., $50), and the **time period** (e.g., Monthly). 
    - Set the **scope** to **Resource Group**, and specify the resource group you want the budget to apply to.
    - Configure the **alert thresholds** (50%(forecasted), 100%, and 100%) to notify you when you approach or exceed the budget.
+     ![Budget1](Budget1.png)
+     
 
 3. **Configure Alerts for the Budget**
    - I set up **email alerts** so I would be notified via email when the budget thresholds are exceeded.

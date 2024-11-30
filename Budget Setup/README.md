@@ -17,9 +17,9 @@ Although budgeting isn't strictly required for a **Free Azure Account**, I set i
    - Set the **budget name**, the **amount** (e.g., $50), and the **time period** (e.g., Monthly). 
    - Set the **scope** to **Resource Group**, and specify the resource group you want the budget to apply to.
    - Configure the **alert thresholds** (50%(forecasted), 100%, and 100%) to notify you when you approach or exceed the budget.
-     ![Budget1](Budget1.png)
-     ![Budget1](Budget2.png)
-     ![Budget3](Budget_Alerts-Overview.png)
+     ![Budget1](screenshots/Budget1.png)
+     ![Budget1](screenshots/Budget2.png)
+     ![Budget3](screenshots/Budget_Alerts-Overview.png)
      
 3. **Configure Alerts for the Budget**
    - I set up **email alerts** so I would be notified via email when the budget thresholds are exceeded.
@@ -28,14 +28,14 @@ Although budgeting isn't strictly required for a **Free Azure Account**, I set i
 1. **Create Action Group**
    - After setting the budget, I created an **action group** that will trigger notifications whenever my budget thresholds are reached.
    - I chose **email notifications** for the action to receive alerts.
-   -   ![Action1](Action1.png)
-   -   ![Action2](Action2.png)
-   -   ![Action3](Action3.png)
+   -   ![Action1](screenshots/Action1.png)
+   -   ![Action2](screenshots/Action2.png)
+   -   ![Action3](screenshots/Action3.png)
 
 2. **Email Notification Action**
    - I configured the action to send **email notifications** to my registered email address. This ensures that I can monitor usage directly in my inbox and take action to prevent exceeding the budget.
 
 - **Budget Overview**:
--  ![Budget2](Budget_Created.png)
+-  ![Budget2](screenshots/Budget_Created.png)
  
   

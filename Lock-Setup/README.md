@@ -23,7 +23,7 @@ In this example, I applied a **Delete Lock** on a resource group and tested its 
 - After creating the lock, it will appear in the list of locks for the resource group.
 - Confirm the lock details (name, type, and notes) to ensure the configuration is correct.
 
-![Step 2: Lock Added](screenshots/Lock-2)
+![Step 2: Lock Added](screenshots/Lock-2.png)
 
 ### 3. Test the Lock by Attempting to Delete the Resource Group
 - Try to delete the resource group from the **Azure Portal**.

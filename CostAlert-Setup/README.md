@@ -8,7 +8,7 @@ Cost anomalies in cloud services can arise due to unforeseen usage spikes or res
   - **Alert Name**: Enter a descriptive name ("Daily anomaly by resource group").
   - **Notification Settings**: Add an email address where you want to receive alerts in case of any anomalies.
 
-![Step 1: Configuring the Alert](screenshots/alert01.png)
+![Step 1: Configuring the Alert](screenshots/Alert01.png)
 
 
 ## Why Detecting Cost Anomalies Matters
@@ -20,7 +20,7 @@ Cost anomalies in cloud environments can result from:
 
 Setting up an alert ensures that you receive notifications in case any of these anomalies occur, allowing you to take immediate corrective actions before the costs spiral out of control.
 
-![Step 1: Configuring the Alert](screenshots/alert2.png)
+![Step 1: Configuring the Alert](screenshots/Alert-2.png)
 
 ## Conclusion
 

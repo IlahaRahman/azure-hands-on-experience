@@ -9,6 +9,8 @@ This guide explains how to apply a tag to an Azure Virtual Machine (VM) to help 
 ### **Step 1: Navigate to the Tags Section**
 1. In the [Azure Portal](https://portal.azure.com), go to **Virtual Machines** and select **VM1**.
 2. From the left-hand menu, click on **Tags** under the "Settings" section.
+![Step 1 Screenshot](screenshots/Tags1.png)
+
 
 ### **Step 2: Add the Tag**
 1. In the Tags pane, enter the following:
@@ -20,8 +22,6 @@ This guide explains how to apply a tag to an Azure Virtual Machine (VM) to help 
 
 ## **Screenshots**
 ### Step 1: Navigate to the Tags Section
-![Step 1 Screenshot](screenshots/Tags-1.png)
-
 ### Step 2: Add the Tag and Save
 ![Step 2 Screenshot](screenshots/Tags-2.png)
 

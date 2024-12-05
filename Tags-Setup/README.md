@@ -20,14 +20,15 @@ This guide explains how to apply a tag to an Azure Virtual Machine (VM) to help 
 
 ## **Screenshots**
 ### Step 1: Navigate to the Tags Section
-![Step 1 Screenshot](path-to-your-screenshot1.png)
+![Step 1 Screenshot](screenshots/Tags-1.png)
 
 ### Step 2: Add the Tag and Save
-![Step 2 Screenshot](path-to-your-screenshot2.png)
+![Step 2 Screenshot](screenshots/Tags-2.png)
 
 ---
 
 ## **Outcome**
 The `Environment: Production` tag has been successfully added to VM1. 
 You can view the applied tag in the Tags section of the VM's Overview page.
+![Step 3 Screenshot](screenshots/Tags-Overview.png)
 

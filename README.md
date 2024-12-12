@@ -8,6 +8,6 @@
 6. [Blob Storage Configuration](BlobStorage-Configuration/README.md)
 7. [Azure Sorage Explorer for Copy](Used-Azure-Storage-Explorer(forCopy)/README.md)
 8. [Life Cycle Management for Blob Container](LifeCycleManagement(BlobContainer)/README.md)
-9. [Tags Setup](Tags-Setup)/README.md)
+9. [Tags Setup](Tags-Setup/README.md)
 
 

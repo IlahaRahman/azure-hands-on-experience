@@ -32,13 +32,13 @@ Azure App Services provides a Platform-as-a-Service (PaaS) solution for hosting 
 4. **Deploy the Web App**
    - Click **Review + Create** to validate your configuration.
    - Click **Create** and wait for the deployment to finish.
-	![App4](Screenshots/App1.png)
-	![App5](Screenshots/App1.png)
+	![App4](Screenshots/App4.png)
+	![App5](Screenshots/App5.png)
 
 5. **Access the Web App**
    - After the deployment, click **Go to resource**.
    - See the domain URL in the overview section and open it in a browser to confirm the app is live.
-	![App6](Screenshots/App1.png)
+	![App6](Screenshots/App6.png)
 
 
 

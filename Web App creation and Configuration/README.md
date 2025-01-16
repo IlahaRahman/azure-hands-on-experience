@@ -14,7 +14,7 @@ Azure App Services provides a Platform-as-a-Service (PaaS) solution for hosting 
 2. **Create a Web App**
    - In the search bar, type **App Services** and select it.
    - Click **+ Create** and choose **Web App** from the menu.
-	![App1](screenshots/App1.png)
+	![App1](Screenshots/App1.png)
 
 3. **Configure the Web App**
    - Fill in the following details under the **Basics** tab:
@@ -26,19 +26,19 @@ Azure App Services provides a Platform-as-a-Service (PaaS) solution for hosting 
      - **Operating System**: `Linux`.
      - **Region**: `East US`.
      - **Pricing Plan**: `Premium V3 P1V3`.
-        ![App2](screenshots/App2.png)
-	![App3](screenshots/App3.png)
+        ![App2](Screenshots/App2.png)
+	![App3](Screenshots/App3.png)
 
 4. **Deploy the Web App**
    - Click **Review + Create** to validate your configuration.
    - Click **Create** and wait for the deployment to finish.
-	![App4](screenshots/App1.png)
-	![App5](screenshots/App1.png)
+	![App4](Screenshots/App1.png)
+	![App5](Screenshots/App1.png)
 
 5. **Access the Web App**
    - After the deployment, click **Go to resource**.
    - See the domain URL in the overview section and open it in a browser to confirm the app is live.
-	![App6](screenshots/App1.png)
+	![App6](Screenshots/App1.png)
 
 
 

@@ -39,6 +39,7 @@ Azure App Services provides a Platform-as-a-Service (PaaS) solution for hosting 
    - After the deployment, click **Go to resource**.
    - See the domain URL in the overview section and open it in a browser to confirm the app is live.
 	![App6](Screenshots/App6.png)
+	![App6](Screenshots/App7.png)
 
 
 

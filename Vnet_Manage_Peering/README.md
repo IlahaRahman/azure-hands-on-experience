@@ -90,7 +90,9 @@ After peering was set up, I tested the connection again using PowerShell from in
 In the **Run Command** blade of the `ManufacturingVM`, I ran this PowerShell script:
 ![Run Command](./Screenshots/Peering12.png)
 
+
+![Test Net Connection](./Screenshots/Peering13.png)
+
 ```powershell
 Test-NetConnection <CoreServicesVM Private IP> -Port 3389
 
-![Test Net Connection](./Screenshots/Peering13.png)

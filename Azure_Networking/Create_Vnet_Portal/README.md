@@ -7,20 +7,20 @@ This task is part of a hands-on Azure networking lab, where I created a virtual 
 - Sign into the Azure Portal
 - Create a new resource group named az104-rg4
 - Create a Virtual Network named `CoreServicesVnet` in the East US region
-	![Create VNets](./Screenshots/Vnet1.png)
-	![Create VNets](./Screenshots/Vnet2.png)
+	![Create VNets](./Screenshots/Screenshot(294).png)
+	![Create VNets](./Screenshots/Screenshot(295).png)
 - Define a custom IPv4 address space (`10.20.0.0/16`)
 - Add two subnets:
   - `SharedServicesSubnet`: `10.20.10.0/24`
-	![Create VNets](./Screenshots/Vnet3.png)
+	![Create VNets](./Screenshots/Screenshot(296).png)
   - `DatabaseSubnet`: `10.20.20.0/24`
-	![Create VNets](./Screenshots/Vnet4.png)
+	![Create VNets](./Screenshots/Screenshot(297).png)
 - Remove the default subnet
-	![Create VNets](./Screenshots/Vnet5.png)
+	![Create VNets](./Screenshots/Screenshot(298).png)
 
 - Validate and deploy the network
 - Export and download the ARM template for future use
-	![Create VNets](./Screenshots/Vnet6.png)
+	![Create VNets](./Screenshots/Screenshot(299).png)
 
 
 ## 🛠 Steps Performed

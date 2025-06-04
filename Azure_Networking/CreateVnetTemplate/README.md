@@ -15,7 +15,7 @@ Automate the deployment of a virtual network using the `template.json` and `para
 
 1. **Uploaded the exported ARM template files** from the previous task.
 
-	![Template1](./Screenshots/Template1.png)
+	![Template1](./Screenshots/template1.png)
 
 2. **Modified the parameter file** to reflect the same values as the manual deployment:
    - VNet name: `CoreServicesVnet`
@@ -25,5 +25,5 @@ Automate the deployment of a virtual network using the `template.json` and `para
      - `SharedServicesSubnet` – `10.20.10.0/24`
      - `DatabaseSubnet` – `10.20.20.0/24`
  
-	![Template1](./Screenshots/Template2.png)
-	![Template1](./Screenshots/Template3.png)
+	![Template1](./Screenshots/template2.png)
+	![Template1](./Screenshots/template3.png)

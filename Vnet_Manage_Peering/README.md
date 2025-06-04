@@ -47,6 +47,7 @@ Next, I configured VNet peering between `CoreServicesVnet` and `ManufacturingVne
 
 - Went to **Peerings** under settings
 - Clicked **+ Add**
+
 ![`CoreServicesVnet`:](./Screenshots/Peering4.png)
 
 - Set:
@@ -54,6 +55,7 @@ Next, I configured VNet peering between `CoreServicesVnet` and `ManufacturingVne
   - Peering link name: `CoreServicesVnet-to-ManufacturingVnet`
   - Selected `ManufacturingVM-net (az104-rg5)`
   - Allowed access and forwarded traffic
+
 ![CoreServicesVnet-to-ManufacturingVnet](./Screenshots/Peering6.png)
 
 
@@ -64,6 +66,7 @@ Next, I configured VNet peering between `CoreServicesVnet` and `ManufacturingVne
 - Repeated the process to create the reverse peering:
   - Peering link name: `ManufacturingVnet-to-CoreServicesVnet`
   - Allowed access and forwarded traffic as well
+
 !ManufacturingVnet Peering](./Screenshots/Peering7.png)
 
 ![ManufacturingVnet Peering](./Screenshots/Peering8.png)
@@ -81,6 +84,7 @@ After peering was set up, I tested the connection again using PowerShell from in
 ![Private IP Address](./Screenshots/Peering10.png)
 
 #### Step 2: Ran `Test-NetConnection` on `ManufacturingVM`
+
 ![Test Net Connection](./Screenshots/Peering11.png)
 
 In the **Run Command** blade of the `ManufacturingVM`, I ran this PowerShell script:
@@ -88,4 +92,5 @@ In the **Run Command** blade of the `ManufacturingVM`, I ran this PowerShell scr
 
 ```powershell
 Test-NetConnection <CoreServicesVM Private IP> -Port 3389
-![Test Net Connection Completed](./Screenshots/Peering13.png)
+
+![Test Net Connection](./Screenshots/Peering13.png)

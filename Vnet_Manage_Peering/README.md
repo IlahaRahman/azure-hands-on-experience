@@ -9,7 +9,7 @@ I already had two VMs running for this exercise:
 
 ---
 
-## 🔧 What I Did
+## What I Did
 
 Here's a step-by-step summary of what I worked on:
 
@@ -28,16 +28,14 @@ I used **Network Watcher** to check if the two VMs could talk to each other befo
 - Went to **Network Watcher** in the Azure portal
 - Selected **Connection troubleshoot** under "Network diagnostic tools"
 - Configured the following:
-
-
-📷 *Screenshot: Connection Troubleshoot*  
+  
 ![Connection Troubleshoot](./Screenshots/Peering1.png)
 ![Connection Troubleshoot](./Screenshots/Peering2.png)
 ![Connection Troubleshoot](./Screenshots/Peering3.png)
 
 
 As expected, the connection didn’t work initially since the VNets weren’t yet peered.
-![Connection Troubleshoot](./Screenshots4/Peering5.png)
+![Connection Troubleshoot](./Screenshots/Peering5.png)
 
 ---
 
@@ -45,7 +43,7 @@ As expected, the connection didn’t work initially since the VNets weren’t ye
 
 Next, I configured VNet peering between `CoreServicesVnet` and `ManufacturingVnet`.
 
-#### 🔄 On `CoreServicesVnet`:
+#### On `CoreServicesVnet`:
 
 - Went to **Peerings** under settings
 - Clicked **+ Add**
@@ -59,18 +57,15 @@ Next, I configured VNet peering between `CoreServicesVnet` and `ManufacturingVne
 ![CoreServicesVnet-to-ManufacturingVnet](./Screenshots/Peering6.png)
 
 
-📷 *Screenshot: CoreServicesVnet Peering*  
-![CoreServicesVnet Peering](./Screenshots4/03_CoreServicesVnet_Peering.png)
 ![CoreServicesVnet Peering](./Screenshots/Peering9.png)
 
-#### 🔄 On `ManufacturingVnet`:
+####  On `ManufacturingVnet`:
 
 - Repeated the process to create the reverse peering:
   - Peering link name: `ManufacturingVnet-to-CoreServicesVnet`
   - Allowed access and forwarded traffic as well
 !ManufacturingVnet Peering](./Screenshots/Peering7.png)
 
-📷 *Screenshot: ManufacturingVnet Peering*  
 ![ManufacturingVnet Peering](./Screenshots/Peering8.png)
 
 Both peerings showed up as **Connected** after a quick refresh.
@@ -82,8 +77,7 @@ Both peerings showed up as **Connected** after a quick refresh.
 After peering was set up, I tested the connection again using PowerShell from inside `ManufacturingVM`.
 
 #### Step 1: Got the Private IP of `CoreServicesVM`
-
-📷 *Screenshot: Private IP Address*  
+ 
 ![Private IP Address](./Screenshots/Peering10.png)
 
 #### Step 2: Ran `Test-NetConnection` on `ManufacturingVM`

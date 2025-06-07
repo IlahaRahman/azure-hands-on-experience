@@ -32,8 +32,8 @@ NSGs work like virtual firewalls for your subnets. By applying one to a subnet, 
 - One ASG was created (as shown in the screenshots)
 - The ASG is not used in any rule yet, but it's ready for future use
  	![ASG Creation](./Screenshots/ASG1.png)
-	![ASG Creation](./Screenshots/ASG2.png.png)
-	![ASG Creation](./Screenshots/ASG3.png.png)
+	![ASG Creation](./Screenshots/ASG2.png)
+	![ASG Creation](./Screenshots/ASG3.png)
 
 
  ASGs make it easier to manage traffic flows between applications by grouping together VMs logically. Instead of updating IPs manually in NSG rules, we’ll later refer to the ASG name.

@@ -51,9 +51,9 @@ Associating the NSG with these subnets ensures that the default security rules a
 
 - **Inbound Rules:** By default, all inbound traffic from the internet or other external sources is blocked, unless explicitly allowed. This protects our subnets from unsolicited or potentially harmful connections.
 
-	![Inbound rules](./Screenshots/Inbound1.png)
-	![Inbound rules](./Screenshots/Inbound2.png)
-	![Inbound rules](./Screenshots/Inbound3.png)
+	![Inbound rules](./Screenshots/inbound1.png)
+	![Inbound rules](./Screenshots/inbound2.png)
+	![Inbound rules](./Screenshots/inbound3.png)
 
   
 - **Outbound Rules:** By default, all outbound traffic from resources inside the subnet is allowed. This means VMs or services within the subnet can reach the internet or other Azure services, unless you later define a rule to block it.

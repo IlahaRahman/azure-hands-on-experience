@@ -19,6 +19,7 @@ The goal of this task was to:
   - Allow Azure load balancer inbound
   - Deny all inbound traffic
   - Allow all outbound traffic
+
 	![NSG Creation](./Screenshots/NSG1.png)
 	![NSG Creation](./Screenshots/NSG2.png)
 	![NSG Creation](./Screenshots/NSG3.png)
@@ -31,6 +32,7 @@ NSGs work like virtual firewalls for your subnets. By applying one to a subnet, 
 
 - One ASG was created (as shown in the screenshots)
 - The ASG is not used in any rule yet, but it's ready for future use
+
  	![ASG Creation](./Screenshots/ASG1.png)
 	![ASG Creation](./Screenshots/ASG2.png)
 	![ASG Creation](./Screenshots/ASG3.png)
@@ -45,7 +47,8 @@ NSGs work like virtual firewalls for your subnets. By applying one to a subnet, 
 - The NSG `CoreVnet-Nsg` was attached to the following subnets:
   - `SharedServicesSubnet`
   - `DatabaseSubnet`
-	!Subnet Association](./Screenshots/subnet.png)
+
+	![Subnet Association](./Screenshots/subnet.png)
 
 Associating the NSG with these subnets ensures that the default security rules are now being enforced. This means:
 

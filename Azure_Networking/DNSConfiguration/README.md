@@ -24,7 +24,7 @@ DNS is a critical part of networking, and Azure gives us the ability to manage i
 - Added an internal A record: `sensorvm` pointing to IP: `10.1.1.4`
 
 	![Record Sets](./Screenshots/AddRecordset.png)
-	!Record Sets](./Screenshots/AddRecordSet1.png)
+	![Record Sets](./Screenshots/AddRecordSet1.png)
 	
  
 Private DNS zones provide name resolution **within** one or more virtual networks. This allows internal resources like VMs to resolve each other using hostnames instead of IPs, which simplifies management and improves security (since names are easier to remember and are not exposed publicly). By linking the zone to `ManufacturingVnet`, only that network can resolve records in this DNS zone.
